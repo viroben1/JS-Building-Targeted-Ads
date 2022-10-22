@@ -4,9 +4,9 @@ const liveServer = require('live-server')
 
 async function main() {
 
-    app.listen(3001, () => {
+    app.listen(3005, () => {
         liveServer.start({
-            port: 3000,
+            port: 3004,
             logLevel: 0,
             root: './public'
         })
